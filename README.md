@@ -4,6 +4,13 @@ An end-to-end computer vision pipeline for industrial anomaly detection, finetun
 
 ---
 
+## 🎬 Live Demos (Defect Localization Showcase)
+| Cable Anomaly Detection | Grid Anomaly Detection | Metal Nut Anomaly Detection |
+| :---: | :---: | :---: |
+| <img src="Visualization/CABLE_Analysis/cable_final.gif" width="260"/> | <img src="Visualization/GRID_Analysis/grid_final.gif" width="260"/> | <img src="Visualization/METAL_NUT_Analysis/metal_nut_final.gif" width="260"/> |
+
+---
+
 ## 📊 Performance & Optimization Analysis
 
 ### 1. Global Benchmarking Performance
@@ -60,13 +67,6 @@ An end-to-end computer vision pipeline for industrial anomaly detection, finetun
 
 #### C. Failure Cases Identification
 <img src="Visualization/METAL_NUT_Analysis/Failure_Cases_METAL_NUT.png" width="600"/>
-
----
-
-## 🎬 Live Demos (Defect Localization Showcase)
-| Cable Anomaly Detection | Grid Anomaly Detection | Metal Nut Anomaly Detection |
-| :---: | :---: | :---: |
-| <img src="Visualization/CABLE_Analysis/cable_final.gif" width="260"/> | <img src="Visualization/GRID_Analysis/grid_final.gif" width="260"/> | <img src="Visualization/METAL_NUT_Analysis/metal_nut_final.gif" width="260"/> |
 
 ---
 
