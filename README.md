@@ -32,9 +32,9 @@ An end-to-end computer vision pipeline for industrial anomaly detection, finetun
 <img src="Visualization/CABLE_Analysis/Score_Distribution_CABLE_PR_Curve_CABLE.png" width="600"/>
 
 #### B. Confusion Matrix Optimization (Side-by-Side Comparison)
-| Default Threshold (Before Finetuning) | Optimized Threshold (After Finetuning - 0.5113) |
+| Default Threshold (Before Finetuning - 0.5039) | Optimized Threshold (After Finetuning - 0.5113) |
 | :---: | :---: |
-| <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE_Default.png" width="380"/> | <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE_(Threshold_0.5113).png" width="380"/> |
+| <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE_(Threshold_0.5039).png" width="380"/> | <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE_(Threshold_0.5113).png" width="380"/> |
 
 #### C. Failure Cases Identification
 <img src="Visualization/CABLE_Analysis/Failure_Cases_CABLE.png" width="600"/>
@@ -47,9 +47,9 @@ An end-to-end computer vision pipeline for industrial anomaly detection, finetun
 <img src="Visualization/GRID_Analysis/Score_Distribution_GRID_PR_Curve_GRID.png" width="600"/>
 
 #### B. Confusion Matrix Optimization (Side-by-Side Comparison)
-| Default Threshold (Before Finetuning) | Optimized Threshold (After Finetuning - 0.3363) |
+| Default Threshold (Before Finetuning - 0.3360) | Optimized Threshold (After Finetuning - 0.3363) |
 | :---: | :---: |
-| <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID_Default.png" width="380"/> | <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID_(Threshold_0.3363).png" width="380"/> |
+| <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID_(Threshold_0.3360).png" width="380"/> | <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID_(Threshold_0.3363).png" width="380"/> |
 
 *(Note: Grid achieved 100.00% AUROC post-optimization, resulting in zero failure cases.)*
 
@@ -61,9 +61,9 @@ An end-to-end computer vision pipeline for industrial anomaly detection, finetun
 <img src="Visualization/METAL_NUT_Analysis/Score_Distribution_METAL_NUT_PR_Curve_METAL_NUT.png" width="600"/>
 
 #### B. Confusion Matrix Optimization (Side-by-Side Comparison)
-| Default Threshold (Before Finetuning) | Optimized Threshold (After Finetuning - 0.5115) |
+| Default Threshold (Before Finetuning - 0.4848) | Optimized Threshold (After Finetuning - 0.5115) |
 | :---: | :---: |
-| <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT_Default.png" width="380"/> | <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT_(Threshold_0.5115).png" width="380"/> |
+| <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT_(Threshold_0.4848).png" width="380"/> | <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT_(Threshold_0.5115).png" width="380"/> |
 
 #### C. Failure Cases Identification
 <img src="Visualization/METAL_NUT_Analysis/Failure_Cases_METAL_NUT.png" width="600"/>
