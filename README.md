@@ -21,17 +21,6 @@
 
 ---
 
-## 📊 Performance & Optimization Analysis
-
-### 1. Global Benchmarking Performance
-| Seq | Component Category | EfficientAd AUROC | Patchcore AUROC | Optimal Architecture Selection | Status |
-| :---: | :--- | :---: | :---: | :---: | :---: |
-| 1 | **Cable** | 89.11% | **98.88%** | **Patchcore** | Best Model Restored ✅ |
-| 2 | **Metal Nut** | 99.46% | **99.80%** | **Patchcore** | Best Model Restored ✅ |
-| 3 | **Grid** | **100.00%** | 98.91% | **EfficientAd** | Best Model Restored ✅ |
-
----
-
 ## 🚀 Project Overview & Core Features
 
 ### 🔍 Key Pipeline Architecture
@@ -42,6 +31,7 @@
 ---
 
 ### 2. Cable Component Performance Table
+> **Model Architecture:** `Patchcore`
 
 #### A. Anomaly Score Distribution & PR Curve
 <img src="Visualization/CABLE_Analysis/Score_Distribution_CABLE_PR_Curve_CABLE.png" width="600"/>
@@ -64,6 +54,7 @@
 ---
 
 ### 3. Grid Component Performance Table
+> **Model Architecture:** `EfficientAd`
 
 #### A. Anomaly Score Distribution & PR Curve
 <img src="Visualization/GRID_Analysis/Score_Distribution_GRID_PR_Curve_GRID.png" width="600"/>
@@ -83,6 +74,7 @@
 ---
 
 ### 4. Metal Nut Component Performance Table
+> **Model Architecture:** `Patchcore`
 
 #### A. Anomaly Score Distribution & PR Curve
 <img src="Visualization/METAL_NUT_Analysis/Score_Distribution_METAL_NUT_PR_Curve_METAL_NUT.png" width="600"/>
