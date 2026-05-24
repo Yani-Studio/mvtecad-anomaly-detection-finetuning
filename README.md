@@ -33,67 +33,52 @@ An end-to-end computer vision pipeline for industrial anomaly detection, finetun
 
 ### 2. Cable Component Performance Table
 
-#### A. Anomaly Score Distribution & PR Curve
-<img src="Visualization/CABLE_Analysis/Score_Distribution_CABLE_PR_Curve_CABLE.png" width="600"/>
-
-#### B. Confusion Matrix Optimization (Side-by-Side Comparison)
-| Default Model (Before) | Optimized Threshold (After - 0.5113) |
-| :---: | :---: |
-| <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE.png" width="380"/> | <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE_(Threshold_0.5113).png" width="380"/> |
-
-#### C. Performance Metrics Comparison
-| Metric | Before Finetuning | After Finetuning |
+#### A. Confusion Matrix & Metrics (Before vs. After)
+| Metric | Default Model (Before) | Optimized Model (After) |
 | :---: | :---: | :---: |
 | **Accuracy** | 85.2% | **99.1%** |
 | **Precision** | 0.82 | **0.98** |
 | **Recall** | 0.88 | **0.99** |
 | **F1-Score** | 0.85 | **0.99** |
 
-#### D. Failure Cases Identification
-<img src="Visualization/CABLE_Analysis/Failure_Cases_CABLE.png" width="600"/>
+#### B. Visual Comparison
+| Default Model | Optimized Threshold (0.5113) |
+| :---: | :---: |
+| <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE.png" width="380"/> | <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE_(Threshold_0.5113).png" width="380"/> |
 
 ---
 
 ### 3. Grid Component Performance Table
 
-#### A. Anomaly Score Distribution & PR Curve
-<img src="Visualization/GRID_Analysis/Score_Distribution_GRID_PR_Curve_GRID.png" width="600"/>
-
-#### B. Confusion Matrix Optimization (Side-by-Side Comparison)
-| Default Model (Before) | Optimized Threshold (After - 0.3363) |
-| :---: | :---: |
-| <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID.png" width="380"/> | <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID_(Threshold_0.3363).png" width="380"/> |
-
-#### C. Performance Metrics Comparison
-| Metric | Before Finetuning | After Finetuning |
+#### A. Confusion Matrix & Metrics (Before vs. After)
+| Metric | Default Model (Before) | Optimized Model (After) |
 | :---: | :---: | :---: |
 | **Accuracy** | 92.4% | **100.0%** |
 | **Precision** | 0.90 | **1.00** |
 | **Recall** | 0.94 | **1.00** |
 | **F1-Score** | 0.92 | **1.00** |
 
+#### B. Visual Comparison
+| Default Model | Optimized Threshold (0.3363) |
+| :---: | :---: |
+| <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID.png" width="380"/> | <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID_(Threshold_0.3363).png" width="380"/> |
+
 ---
 
 ### 4. Metal Nut Component Performance Table
 
-#### A. Anomaly Score Distribution & PR Curve
-<img src="Visualization/METAL_NUT_Analysis/Score_Distribution_METAL_NUT_PR_Curve_METAL_NUT.png" width="600"/>
-
-#### B. Confusion Matrix Optimization (Side-by-Side Comparison)
-| Default Model (Before) | Optimized Threshold (After - 0.5115) |
-| :---: | :---: |
-| <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT.png" width="380"/> | <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT_(Threshold_0.5115).png" width="380"/> |
-
-#### C. Performance Metrics Comparison
-| Metric | Before Finetuning | After Finetuning |
+#### A. Confusion Matrix & Metrics (Before vs. After)
+| Metric | Default Model (Before) | Optimized Model (After) |
 | :---: | :---: | :---: |
 | **Accuracy** | 94.8% | **99.8%** |
 | **Precision** | 0.93 | **0.99** |
 | **Recall** | 0.96 | **0.99** |
 | **F1-Score** | 0.94 | **0.99** |
 
-#### D. Failure Cases Identification
-<img src="Visualization/METAL_NUT_Analysis/Failure_Cases_METAL_NUT.png" width="600"/>
+#### B. Visual Comparison
+| Default Model | Optimized Threshold (0.5115) |
+| :---: | :---: |
+| <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT.png" width="380"/> | <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT_(Threshold_0.5115).png" width="380"/> |
 
 ---
 
