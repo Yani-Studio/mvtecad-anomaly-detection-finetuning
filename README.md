@@ -11,7 +11,7 @@ An end-to-end computer vision pipeline for industrial anomaly detection, finetun
 
 ---
 
-## 📊 Performance & Optimization Analysis (Before vs. After)
+## 📊 Performance & Optimization Analysis
 
 ### 1. Global Benchmarking Performance
 | Seq | Component Category | EfficientAd AUROC | Patchcore AUROC | Optimal Architecture Selection | Status |
@@ -22,26 +22,51 @@ An end-to-end computer vision pipeline for industrial anomaly detection, finetun
 | 4 | **Metal Nut** | 99.46% | **99.80%** | **Patchcore** | Best Model Restored ✅ |
 | 5 | **Grid** | **100.00%** | 98.91% | **EfficientAd** | Best Model Restored ✅ |
 
+> ⚠️ **Note on Category Exclusion:** Transistor and Screw categories encountered performance anomalies or technical degradation during the unsupervised anomaly detection baseline pipeline execution. Consequently, they were intentionally excluded from the subsequent detailed pixel-level visualization analysis and decision threshold finetuning phases.
+
 ---
 
 ### 2. Cable Component Performance Table
-| BEFORE Threshold Optimization <br> (Score Distribution & PR Curve) | AFTER Threshold Optimization <br> (Confusion Matrix & Failure Cases) |
+
+#### A. Anomaly Score Distribution & PR Curve
+<img src="Visualization/CABLE_Analysis/Score_Distribution_CABLE_PR_Curve_CABLE.png" width="600"/>
+
+#### B. Confusion Matrix Optimization (Side-by-Side Comparison)
+| Default Threshold (Before Finetuning) | Optimized Threshold (After Finetuning - 0.5113) |
 | :---: | :---: |
-| <img src="Visualization/CABLE_Analysis/Score_Distribution_CABLE_PR_Curve_CABLE.png" width="420"/> | <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE_(Threshold_0.5113).png" width="380"/> <br><br> <img src="Visualization/CABLE_Analysis/Failure_Cases_CABLE.png" width="400"/> |
+| <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE_Default.png" width="380"/> | <img src="Visualization/CABLE_Analysis/Confusion_Matrix_CABLE_(Threshold_0.5113).png" width="380"/> |
+
+#### C. Failure Cases Identification
+<img src="Visualization/CABLE_Analysis/Failure_Cases_CABLE.png" width="600"/>
 
 ---
 
 ### 3. Grid Component Performance Table
-| BEFORE Threshold Optimization <br> (Score Distribution & PR Curve) | AFTER Threshold Optimization <br> (Confusion Matrix) |
+
+#### A. Anomaly Score Distribution & PR Curve
+<img src="Visualization/GRID_Analysis/Score_Distribution_GRID_PR_Curve_GRID.png" width="600"/>
+
+#### B. Confusion Matrix Optimization (Side-by-Side Comparison)
+| Default Threshold (Before Finetuning) | Optimized Threshold (After Finetuning - 0.3363) |
 | :---: | :---: |
-| <img src="Visualization/GRID_Analysis/Score_Distribution_GRID_PR_Curve_GRID.png" width="420"/> | <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID_(Threshold_0.3363).png" width="400"/> |
+| <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID_Default.png" width="380"/> | <img src="Visualization/GRID_Analysis/Confusion_Matrix_GRID_(Threshold_0.3363).png" width="380"/> |
+
+*(Note: Grid achieved 100.00% AUROC post-optimization, resulting in zero failure cases.)*
 
 ---
 
 ### 4. Metal Nut Component Performance Table
-| BEFORE Threshold Optimization <br> (Score Distribution & PR Curve) | AFTER Threshold Optimization <br> (Confusion Matrix & Failure Cases) |
+
+#### A. Anomaly Score Distribution & PR Curve
+<img src="Visualization/METAL_NUT_Analysis/Score_Distribution_METAL_NUT_PR_Curve_METAL_NUT.png" width="600"/>
+
+#### B. Confusion Matrix Optimization (Side-by-Side Comparison)
+| Default Threshold (Before Finetuning) | Optimized Threshold (After Finetuning - 0.5115) |
 | :---: | :---: |
-| <img src="Visualization/METAL_NUT_Analysis/Score_Distribution_METAL_NUT_PR_Curve_METAL_NUT.png" width="420"/> | <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT_(Threshold_0.5115).png" width="380"/> <br><br> <img src="Visualization/METAL_NUT_Analysis/Failure_Cases_METAL_NUT.png" width="400"/> |
+| <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT_Default.png" width="380"/> | <img src="Visualization/METAL_NUT_Analysis/Confusion_Matrix_METAL_NUT_(Threshold_0.5115).png" width="380"/> |
+
+#### C. Failure Cases Identification
+<img src="Visualization/METAL_NUT_Analysis/Failure_Cases_METAL_NUT.png" width="600"/>
 
 ---
 
