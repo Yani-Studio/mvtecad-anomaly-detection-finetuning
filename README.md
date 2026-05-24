@@ -1,6 +1,7 @@
 <div align="center">
 
-# 🔬 MVTecAD Anomaly Detection & Finetuning Pipeline
+# 🔬 MVTecAD Industrial Anomaly Detection
+### High-Precision Computer Vision Pipeline for Quality Assurance
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-MPS_Backend-orange.svg)](https://pytorch.org/)
@@ -121,7 +122,8 @@
 ---
 
 ## 📋 Dataset Credits & Attribution
-* **Creators:** **MVTec Software GmbH** (Paul Bergmann, Michael Fauser, David Sattlegger, Carsten Steger).
+* **Framework Core:** [Anomalib (Open Edge Platform)](https://github.com/open-edge-platform/anomalib)
+* **Dataset Creators:** **MVTec Software GmbH** (Paul Bergmann, Michael Fauser, David Sattlegger, Carsten Steger).
 * **Description:** A benchmark dataset specifically designed for unsupervised anomaly detection and pixel-precise defect segmentation in industrial quality inspection.
 * **Official Source:** [MVTec AD Dataset Website](https://www.mvtec.com/research-teaching/datasets/mvtec-ad)
 * **Kaggle Link:** [MVTec Defect Detection Dataset](https://www.kaggle.com/datasets/avdvhh/mvtec-defect-detection-dataset)
