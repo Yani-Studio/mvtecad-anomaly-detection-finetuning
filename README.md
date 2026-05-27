@@ -115,7 +115,7 @@
 
 ## 💡 Project Motivation & Evolution (Pivoting from Failure)
 
-This project originated from a fundamental challenge encountered during a **Reverse Engineering** course at Kyung Hee University. Traditional static and dynamic analysis methods faced strict limitations when attempting to automatically trace and identify complex system anomalies. 
+This project originated from a fundamental challenge encountered during a **Reverse Engineering** course at **the Graduate School of Kyung Hee University**. Traditional static and dynamic analysis methods faced strict limitations when attempting to automatically trace and identify complex system anomalies. 
 
 Recognizing the constraints of manual heuristics, the focus was shifted toward **Unsupervised Vision AI and Anomaly Detection**. By pivoting from deterministic code analysis to deep learning-based pattern recognition, this pipeline was engineered to autonomously learn "normal" states and flag micro-deviations. This repository represents the successful evolution of an academic bottleneck into a robust, high-precision industrial quality assurance solution.
 
