@@ -12,7 +12,15 @@
 </div>
 
 ---
-> ⚠️ Copyright Notice Copyright (c) 2026 Kang Gyu Min. All rights reserved.
+
+> [!WARNING]
+> **[Intellectual Property & Authorized Evaluation Notice]**
+> 
+> * The source code, architecture, and associated assets in this repository are permanently archived with an official Digital Object Identifier (DOI: [10.5281/zenodo.23740645](https://doi.org/10.5281/zenodo.23740645)) via CERN/Zenodo.
+> * Access to this repository is granted strictly for authorized review and technical evaluation purposes.
+> * Unauthorized copying, reverse engineering, redistribution, commercial utilization, derivative work creation, or appropriation of model weights without explicit prior written consent from the author is strictly prohibited.
+> * Copyright (c) 2026 Kang Gyu Min. All rights reserved.
+
 ---
 
 ## 🎬 Live Demos (Defect Localization Showcase)
