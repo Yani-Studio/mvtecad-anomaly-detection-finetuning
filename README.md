@@ -1,11 +1,16 @@
 <div align="center">
 
-# 🔬 MVTecAD Industrial Anomaly Detection
-### High-Precision Computer Vision Pipeline for Quality Assurance
+# 🔬 MVTecAD-Industrial-Anomaly-Detection
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-MPS_Backend-orange.svg)](https://pytorch.org/)
-[![Training](https://img.shields.io/badge/Status-Completed-brightgreen.svg)]()
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23740645-007EC6?style=flat)](https://doi.org/10.5281/zenodo.23740645)
+![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-MacBook%20Pro%20M5-24292e?style=flat&logo=apple&logoColor=white&labelColor=555555)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white&labelColor=555555)
+![PyTorch](https://img.shields.io/badge/PyTorch-MPS%20Backend-EE4C2C?style=flat&logo=pytorch&logoColor=white&labelColor=555555)
+![OpenCV](https://img.shields.io/badge/OpenCV-Vision%20Pipeline-5C3EE8?style=flat&logo=opencv&logoColor=white&labelColor=555555)
+![MVTec AD](https://img.shields.io/badge/Dataset-MVTec%20AD-FF6F00?style=flat&labelColor=555555)
+![Status](https://img.shields.io/badge/Status-Completed-2ea44f?style=flat&labelColor=555555)
+
+---
 
 *An end-to-end computer vision pipeline for industrial anomaly detection, finetuned on the MVTec AD dataset.*
 
